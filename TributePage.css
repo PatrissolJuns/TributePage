@@ -1,0 +1,143 @@
+:root {
+  --txtc: rgb(161, 10, 198);
+  --colc: rgb(23, 143, 250);
+}
+html,
+body {
+  text-align: center;
+  font-family: sans-serif, Helvetica;
+  min-width: 320px;
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 1000px){
+  body{
+    width: 90%;
+  }
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 80%;
+  }  
+}
+@media screen and (max-width: 800px) {
+  #title{
+    font-size: 25px;
+  }
+}
+#main {
+  background-color: rgb(250, 250, 250);
+  margin: 20px 20px 50px 20px;
+}
+#title{
+  color: rgb(161, 10, 198);
+}
+#description{
+  font-weight: 700;
+}
+#survey-form{
+  }
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.field {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  background: ;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border-color: var(--colc);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+#submit {
+  background-color: var(--colc);
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+figcaption{
+  display: inline-block;
+  height: 40px;
+  margin-top: 0px;
+  background: red;  
+}
+select{
+	margin: 15px;
+}
+.sex{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label[for]{
+  font-size: 18px;
+  font-weight: 550;
+}
+select{
+  height: 30px;
+  width: 290px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border-color: var(--colc);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+span{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .label {
+    width: 100%;
+    text-align: left;
+  }
+    .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+.input-field:focus{
+  border-color: var(--colc);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
